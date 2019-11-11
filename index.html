@@ -18,10 +18,36 @@
 		
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+		<!--Anticopy-->
+		<style>
+body{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+</style><script type=”text/JavaScript”>
+function killCopy(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function (“return false”)
+if (window.sidebar){
+document.onmousedown=killCopy
+document.onclick=reEnable
+}
+</script>
+
 	</head>
 	
 	<body id="body" data-ng-app="contactApp">
-		
+	<!--Anti Right Click-->
+	<body onselectstart="return false" oncontextmenu="return false">
 		<!--Fixed Bg Image-->
 		<div class="fixed-bg"></div>
 		<div class="fixed-bg-overlay"></div>
@@ -584,7 +610,7 @@
 										</a>
 									</div>
 									<div class="copywrite-wrap text-right float-right">
-										<p class="copywrite">Fabricated by <b>Hencework &copy; 2017.</b> Updated <b>June, 2017.</b></p>
+										<p class="copywrite">Copyright by <b>Brian Tran &copy; 2019.</b> Designed by <b>Hencework.</b></p>
 									</div>
 								</div>	
 							</div>	
