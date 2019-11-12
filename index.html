@@ -514,7 +514,7 @@
 						<section id="contact_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad-top sec-pad-bottom-sm">
 							<h6>contact</h6>
 							<div data-ng-controller="ContactController" class="align-center wow fadeInUp" data-wow-duration=".4s">
-								<h3>Hello <span  data-ng-bind="formData.inputName||''"></span>, I'd love to hear from you.</h3>
+								<h3>Hello <span  data-ng-bind="formData.inputName||'friend'"></span>, I'd love to hear from you.</h3>
 								<div>
 									<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
 										<div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">

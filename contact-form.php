@@ -18,7 +18,7 @@ if (isset($_POST['inputName']) && isset($_POST['inputEmail'])&& isset($_POST['in
     $mail->From = $_POST['inputEmail'];
     $mail->FromName = $_POST['inputName'];
     $mail->AddAddress('contact@hoangbao.org'); //recipient 
-    $mail->Subject = 'Enquiry from Brian Tran Website';
+    $mail->Subject = 'Enquiry from Hencework';
     $mail->Body = "Name: " . $_POST['inputName'] . "\r\n\r\nMessage: " . stripslashes($_POST['inputMessage']);
 
     if (isset($_POST['ref'])) {
