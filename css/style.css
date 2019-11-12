@@ -238,7 +238,7 @@ p {
   clear: both; }
 
 .preloader-it {
-  background: #fff;
+  background: #303133 no-repeat;
   position: fixed;
   z-index: 110;
   height: 100%;
