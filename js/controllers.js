@@ -13,9 +13,9 @@ app.controller('ContactController', function ($scope, $http) {
         if (contactform.$valid) {
             $http({
                 method  : 'POST',
-                url     : 'contact-form.php',
+                url     : 'https://formspree.io/contact@hoangbao.org',
                 data    : $.param($scope.formData),  //param method from jQuery
-                headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
+                headers : { 'Content-Type': 'application/json' }  //set the headers so angular passing info as form data (not request payload)
             }).success(function(data){
                 console.log(data);
                 if (data.success) { //success comes from the return json object
