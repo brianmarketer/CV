@@ -39,14 +39,14 @@
 					user-select: none;
 					}
 		</style>
-		<script type=”text/JavaScript”>
+		<script type="text/JavaScript">
 				function killCopy(e){
 				return false
 				}
 				function reEnable(){
 				return true
 				}
-				document.onselectstart=new Function (“return false”)
+				document.onselectstart=new Function ("return false")
 				if (window.sidebar){
 				document.onmousedown=killCopy
 				document.onclick=reEnable
@@ -625,7 +625,7 @@
 		<!-- /Container -->
 				
 		<!-- Scripts -->
-		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="js/angular.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
