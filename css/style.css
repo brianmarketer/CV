@@ -33,7 +33,7 @@ Project:	Brian Tran
 @import url(inputtext.css);
 @import url(filter.css);
 @import url(default-skin/default-skin.css);
-@import url(lightgallery.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.18/css/lightgallery.css);
 /****************************/
 /** Reset **/
 /****************************/
