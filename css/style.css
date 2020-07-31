@@ -24,7 +24,7 @@ Project:	Brian Tran
 /** Imports **/
 /****************************/
 @import url(animate.css);
-@import url(font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(pe-icon-7-stroke.css);
 @import url(et-line-font.css);
 @import url(bootstrap.min.css);
